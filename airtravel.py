@@ -173,3 +173,6 @@ def console_card_printer(passenger, seat, flight_number, aircraft):
     card = '\n'.join(lines)
     print(card)
     print()
+
+if __name__=='__main__':
+    make_flights()
